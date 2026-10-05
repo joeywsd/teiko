@@ -1,0 +1,21 @@
+# Local Python environment and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated database and pipeline outputs (recreated by `make pipeline`)
+cell_count.db
+data_quality_report.csv
+population_frequencies.csv
+responder_population_boxplots.png
+responder_statistics.csv
+responder_analysis_summary.txt
+baseline_miraclib_melanoma_pbmc.csv
+baseline_miraclib_melanoma_pbmc_summary.csv
+melanoma_male_responder_baseline_b_cell_average.csv
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
